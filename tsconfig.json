@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "ES2020", // JavaScript version to compile to
+    "module": "commonjs", // Module system (CommonJS, ESNext, etc.)
+    "strict": true, // Enable all strict type-checking options
+    "esModuleInterop": true, // Allow default imports from CommonJS modules
+    "skipLibCheck": true, // Skip checking declaration files (*.d.ts)
+    "forceConsistentCasingInFileNames": true, // Ensure consistent file naming
+    "outDir": "./dist", // Output compiled files here
+    "rootDir": "./src", // Source files folder
+    "moduleResolution": "node", // How modules are resolved
+    "resolveJsonModule": true, // Allow importing JSON files
+    "allowSyntheticDefaultImports": true, // Allow default imports for non-ES modules
+    "isolatedModules": true // Treat each file as a separate module
+  },
+  "include": [
+    "src"
+  ], // Files/folders to include
+  "exclude": [
+    "node_modules",
+    "dist"
+  ] // Files/folders to ignore
+}
